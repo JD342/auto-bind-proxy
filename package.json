@@ -1,7 +1,7 @@
 {
   "name": "auto-bind-proxy",
   "description": "Get a proxy that automatically binds methods to their instance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "source/index.js",
   "repository": "https://github.com/JD342/auto-bind-proxy",
   "keywords": ["auto", "bind", "method", "function", "proxy", "this", "self"],
