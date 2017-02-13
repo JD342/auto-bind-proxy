@@ -1,0 +1,19 @@
+{
+  "name": "auto-bind-proxy",
+  "description": "Get a proxy that automatically binds methods to their instance",
+  "version": "1.0.0",
+  "main": "source/index.js",
+  "repository": "https://github.com/JD342/auto-bind-proxy",
+  "keywords": ["auto", "bind", "method", "function", "proxy", "this", "self"],
+  "scripts": {
+    "prepublish": "npm run test",
+    "test": "eslint source/index.js && mocha --harmony source/test.js "
+  },
+  "author": "Nicola Fiori (JD342)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0"
+  }
+}
