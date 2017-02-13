@@ -42,6 +42,17 @@ message();
 // Properties that are not functions are returned normally
 ab(unicorn).name === unicorn.name;
 // -> true
+
+const foo = {
+    bar() { ... }
+    baz() { ... }
+    qux() { ... }
+    ...
+};
+
+// Multiple methods can be retrieved
+const { bar, baz, qux } = ab(foo);
+
 ```
 
 ## API
